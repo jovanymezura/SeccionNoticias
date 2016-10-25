@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div align="center">
+<form class="form-login" action="nueva_noticia.php" method="post"  enctype="multipart/form-data"> <!-- Creamos el formulario, utilizando la etiqueta form, cuyo atributo action="" indicará donde se procesará el formulario -->
+    
+  <h2 class="form-login-heading">Titulo de la noticia:</h2><input class="form-control" name="titulo" type="text" /> <br />
+   <h2 class="form-login-heading"> Texto de la noticia:</h2><textarea class="form-control" name="texto"></textarea> <br />
+
+
+    <input class="btn btn-theme btn-block" type="submit" name="añadir" value="Agregar noticia" />
+</form>
+</div>
+</body>
+</html>
